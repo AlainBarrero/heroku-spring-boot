@@ -9,6 +9,8 @@ body {
 
 /* Profile sidebar */
 .profile-sidebar {
+  position: fixed;
+  width: 20%;
   padding: 20px 0 10px 0;
   background: #fff;
 }
@@ -41,23 +43,6 @@ body {
   font-size: 12px;
   font-weight: 600;
   margin-bottom: 15px;
-}
-
-.profile-userbuttons {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.profile-userbuttons .btn {
-  text-transform: uppercase;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 6px 15px;
-  margin-right: 5px;
-}
-
-.profile-userbuttons .btn:last-child {
-  margin-right: 0px;
 }
 
 .profile-usermenu {
