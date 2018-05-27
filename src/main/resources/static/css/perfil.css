@@ -15,6 +15,13 @@ body {
   background: #fff;
 }
 
+@media (max-width:992px){
+  .profile-sidebar {
+    position:static;
+    width: 100%;
+  }
+}
+
 .profile-userpic img {
   float: none;
   margin: 0 auto;
@@ -89,4 +96,28 @@ body {
   padding: 20px;
   background: #fff;
   min-height: 460px;
+}
+
+.content-title {
+  text-align: center;
+  margin-top: 20px;
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.content-paragraph {
+  padding: 0.5em 3em 1.5em 3em;
+  color: #727d8a;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.content-image {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   -webkit-border-radius: 10% !important;
 }
